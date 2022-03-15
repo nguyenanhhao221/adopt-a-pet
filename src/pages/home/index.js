@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getPets } from '../../api/petfinder';
 import Hero from '../../components/hero';
+// eslint-disable-next-line no-unused-vars
 import Pet from '../../components/pet';
 import { useParams, Link } from 'react-router-dom';
 
